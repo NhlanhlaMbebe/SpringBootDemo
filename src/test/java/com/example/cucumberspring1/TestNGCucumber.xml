@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Practice Suite" parallel="tests" verbose="10" configfailurepolicy="skip">
+    <test name="Test Basics 2">
+        <classes>
+            <class name="com.example.cucumberspring1.runner.TestRunner"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

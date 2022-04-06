@@ -1,0 +1,113 @@
+1. Dependency injection
+    IoC and dependency Injection
+        - Inversion of Control (IoC) - is a principle in software engineering which transfers the control of objects
+        or portions of a program to a container or framework. We most often use it in the context of OOP
+
+   IoC is also known as dependency injection (DI). it is a process whereby objects define their dependencies, ths is
+   the other objects they work with, only through constructor arguments, arguments to a factory method, or properties
+   that are set on the object instance after it is constructed or returned from factory method.
+   The container then injects those dependencies when it creates the bean.
+
+Dependency Injection @Autowired
+
+There are three most used injection in Spring
+    - Constructor Injection
+    - Field Injection
+    - Setter Injection
+
+
+= @Component to decorate the class
+= @Value
+    {
+        - @Value("${app.url}")
+        - private String appUrl;
+    }
+
+Understanding @Configuration
+-Spring @Configuration annotation is part of the spring core framework. Spring configuration annotation indicates that the
+class has @Bean definition methods. So Spring container can process the class and generate Spring Beans to be used in the
+application
+-3rd party library use the @Configuration
+
+Spring bean life cycle
+    - A Spring bean needs to be instantiated when the container starts, based on Java or XML bean definition.
+    The framework may also be required to perform some pre and post-initialization steps to get the bean into a usable state.
+
+    After that, when the bean is no longer required, it will be removed from the IoC container.
+    Like the initialization phase, the Spring framework may need to perform pre-and post-destruction steps to free
+    the other system resources.
+
+Spring Boot :
+    - https://www.techgeeknext.com/testng/spring-boot-testng
+    - https://www.codeusingjava.com/boot/testng
+    - https://www.javainuse.com/spring/springboot_testng
+    -
+
+Cucumber and SpringBoot
+
+    - <artifactId>cucumber-spring</artifactId>
+    - <artifactId>cucumber-java</artifactId>
+    - <artifactId>cucumber-testng</artifactId>
+
+    Test Runner
+        - AbstractTestNGCucumberTests
+        - CucumberOptions
+
+    CucumberTestContextConfig
+        - @CucumberContextConfiguration
+        - @SpringBootTest
+
+
+    Command line to run the test
+        - mvn clean test -Dbrowser=chrome
+
+// Selenium Parallel Automation
+-- You can use Thread Local
+-- This has challanges because you need to maintain the thread, you need to have a
+    Thread manager
+public class LocalDriverContext {
+
+    private static ThreadLocal<RemoteWebDriver> remoteWebDriverThreadLocal = new ThreadLocal<>();
+
+    public static RemoteWebDriver getRemoteWebDriver {
+        return remoteWebDriverThreadLocal.get();
+    }
+}
+
+Spring Boot - Bean Scope
+    - In Spring framework, we can create beans in 6 inbuilt spring bean scopes and you can also define your
+    custom bean scope as well. out of these six scope, for are available only if use a web-aware Application context.
+    Singleton and prototype scope are available in any type of IOC Containers
+
+Default Scope
+ - By default, Spring boot has Singleton scope and because of this, we get a problem while working with parallel
+ execution, since we need a WebDriver instance for each and every browser test we are about to run.
+
+Hence, we need to change the scope of all our class file whichever is using the WebDriver instance from
+    singleton -> Prototype
+
+-Spring Custom Scope
+
+// ------------------------- Parallel Testing -----------------------------
+1. Spring Boot - Bean Scope
+    - In spring framework, we can create beans in 6 inbuilt spring bean scope and you can also define your
+    custom bean scope as well. out of these six scope, four are available only if you use a web-aware Application Context.
+    Singleton and prototype scope are available in any type of IOC Containers.
+        read (bean scope)
+
+     By default, spring boot has Singleton scope and because of this, we get problem while working with parallel execution,
+     since we need Web Driver instance for each and every browser test we are about to run.
+
+     Hence, we need to change the scope of all our class file whichever is using the WebDriver instance from singleton
+        -> prototype
+        -> @Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
+
+
+GitHub Actions components
+GitHub Actions has
+    - Workflows
+    - Events
+    - Jobs
+    - Actions
+    - Runners
+

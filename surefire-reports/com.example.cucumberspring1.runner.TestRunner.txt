@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.example.cucumberspring1.runner.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.888 s - in com.example.cucumberspring1.runner.TestRunner
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.667 s - in com.example.cucumberspring1.runner.TestRunner

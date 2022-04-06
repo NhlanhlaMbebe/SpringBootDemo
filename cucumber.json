@@ -1,0 +1,309 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-06T07:50:23.912Z",
+        "before": [
+          {
+            "result": {
+              "duration": 17445571000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.cucumberspring1.steps.Hooks.initializeTest()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Login with correct username and password",
+        "description": "",
+        "id": "login-feature;login-with-correct-username-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 101443000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.cucumberspring1.steps.Hooks.tearDownTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 470326000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click login Home Page",
+            "match": {
+              "location": "com.example.cucumberspring1.steps.LoginSteps.iClickLoginHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 340837000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter the following for Login",
+            "match": {
+              "location": "com.example.cucumberspring1.steps.LoginSteps.iEnterTheFollowingForLogin(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "admin",
+                  "password"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 469830000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click login button",
+            "match": {
+              "location": "com.example.cucumberspring1.steps.LoginSteps.iClickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 82032000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should see the userform page",
+            "match": {
+              "location": "com.example.cucumberspring1.steps.LoginSteps.iShouldSeeTheUserformPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature",
+    "description": "  Background : This feature deal with the login functionality of the application",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/example/cucumberspring1/features/Login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-06T07:50:23.912Z",
+        "before": [
+          {
+            "result": {
+              "duration": 17478282000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.cucumberspring1.steps.Hooks.initializeTest()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Login with correct username and password",
+        "description": "",
+        "id": "login-feature;login-with-correct-username-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 72008000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.cucumberspring1.steps.Hooks.tearDownTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 619797000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click login Home Page",
+            "match": {
+              "location": "com.example.cucumberspring1.steps.LoginSteps.iClickLoginHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 374334000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter the following for Login",
+            "match": {
+              "location": "com.example.cucumberspring1.steps.LoginSteps.iEnterTheFollowingForLogin(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "admin",
+                  "password"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 485914000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click login button",
+            "match": {
+              "location": "com.example.cucumberspring1.steps.LoginSteps.iClickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 80124000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should see the userform page",
+            "match": {
+              "location": "com.example.cucumberspring1.steps.LoginSteps.iShouldSeeTheUserformPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-06T07:50:23.908Z",
+        "before": [
+          {
+            "result": {
+              "duration": 17732679000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.cucumberspring1.steps.Hooks.initializeTest()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Login with correct username and password 2",
+        "description": "",
+        "id": "login-feature;login-with-correct-username-and-password-2",
+        "after": [
+          {
+            "result": {
+              "duration": 70565000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.cucumberspring1.steps.Hooks.tearDownTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 449097000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click login Home Page",
+            "match": {
+              "location": "com.example.cucumberspring1.steps.LoginSteps.iClickLoginHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 348382000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter the following for Login",
+            "match": {
+              "location": "com.example.cucumberspring1.steps.LoginSteps.iEnterTheFollowingForLogin(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "admin",
+                  "password"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 642861000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click login button",
+            "match": {
+              "location": "com.example.cucumberspring1.steps.LoginSteps.iClickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46466000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I should see the userform page",
+            "match": {
+              "location": "com.example.cucumberspring1.steps.LoginSteps.iShouldSeeTheUserformPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature",
+    "description": "  Background : This feature deal with the login functionality of the application",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/example/cucumberspring1/features/Login_dub.feature",
+    "tags": []
+  }
+]

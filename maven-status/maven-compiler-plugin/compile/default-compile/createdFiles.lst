@@ -1,7 +1,0 @@
-com/example/cucumberspring1/library/DriverScopeConfig.class
-com/example/cucumberspring1/library/DriverScopePostProcessor.class
-com/example/cucumberspring1/library/DriverScope.class
-com/example/cucumberspring1/library/RemoteWebDriverFactory.class
-com/example/cucumberspring1/CucumberSpring1Application.class
-com/example/cucumberspring1/library/Nedbank.class
-com/example/cucumberspring1/library/WebDriverLibrary.class
